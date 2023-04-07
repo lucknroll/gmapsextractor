@@ -27,7 +27,7 @@ time.sleep(3)
 # Scroll 5x
 results_panel = driver.find_element(By.XPATH, '//div[@role="feed"]')
 contador_scroll = 0
-while contador_scroll < 20:  
+while contador_scroll <= 20:  
     driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", results_panel)
     time.sleep(2)
     contador_scroll += 1
