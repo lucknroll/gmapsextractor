@@ -14,7 +14,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.edge.service import Service
 from shapely import Point
 
-def script_tool(busca, nome_arquivo_de_saida):
+def gmapper(busca, nome_arquivo_de_saida):
     """Script code goes below"""
     # Parâmetros
     busca = arcpy.GetParameterAsText(0) ############
@@ -116,7 +116,7 @@ def script_tool(busca, nome_arquivo_de_saida):
 if __name__ == "__main__":
     busca = arcpy.GetParameterAsText(0)
     nome_layer_de_saida = arcpy.GetParameterAsText(1)
-    script_tool(busca, nome_layer_de_saida)
+    gmapper(busca, nome_layer_de_saida)
     
     # Mensagens
     arcpy.AddMessage('Processamento concluído com sucesso')
