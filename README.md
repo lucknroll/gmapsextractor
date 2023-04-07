@@ -4,7 +4,7 @@ Utiliza as bibliotecas selenium, pandas, geopandas e shapely, bem como arcpy (pa
 Verifique a documentação da biblioteca Selenium para download e utilização do driver correspondente ao seu navegador.
 
 ### Recebe:
-busca = string com o termo a ser pesquisado no google maps. No exemplo abaixo foi utilizado "bares na asa norte brasília"
+busca = string com o termo a ser pesquisado no google maps. No exemplo abaixo foi utilizado "bares na asa norte brasília"<br>
 nome_layer_de_saida = string com o nome da layer de saída que será plotada no mapa do ArcGIS Pro (somente para ferramenta arcgis)
 
 ## Resultado:
