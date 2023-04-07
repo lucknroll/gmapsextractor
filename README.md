@@ -1,6 +1,6 @@
 # gmapsextractor
-Extrai resultados de busca do Google Maps e retorna um GeoDataFrame
-Utiliza as bibliotecas selenium, pandas, geopandas e shapely, bem como arcpy (para a ferramenta ArcGIS)
+### Ferramenta que realiza uma busca no Google Maps e retorna um GeoDataFrame com os resultados geoespacializados.<br>
+Utiliza as bibliotecas selenium, pandas, geopandas e shapely, bem como arcpy (para a ferramenta ArcGIS).
 Verifique a documentação da biblioteca Selenium para download e utilização do driver correspondente ao seu navegador.
 
 ### Recebe:
