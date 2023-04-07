@@ -19,10 +19,10 @@ def script_tool(busca, nome_arquivo_de_saida):
     # Parâmetros
     busca = arcpy.GetParameterAsText(0) ############
     
-    # Define as configurações do driver do Selenium
-    path_to_driver = '''D:\Documentos\Python Scripts\GmapsExtractor\v2\msedgedriver.exe'''
+    # Define as configurações do driver do Selenium para o Edge
+    path_to_driver = '''C:Caminho\Para\O\Driver\Do\Seu\Navegador.exe'''
     service = Service(path_to_driver)
-    driver = webdriver.Edge(service=service)
+    driver = webdriver.Edge(service=service)     # Substituir pelo seu navegador de escolha (verifique documentação da biblioteca selenium)
     driver.get("https://www.google.com/maps")
     time.sleep(3)
     
